@@ -1,0 +1,193 @@
+	/* 初始化CSS */
+	html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+	fieldset, img { border:none; }/* ie6 中的bug */
+	img{display: block;}/* 图片下边有3像素缝隙 */
+	address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+	ul, ol { list-style:none; }
+	input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+	input::-moz-focus-inner { border:none; padding:0; }
+	select, input { vertical-align:middle; }
+	select, input, textarea { font-size:12px; margin:0; }
+	input[type="text"], input[type="password"], textarea { outline-style:none; -webkit-appearance:none; }
+	textarea { resize:none; }
+	table { border-collapse:collapse; }
+	body { font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ }
+	.clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
+	.clearfix { zoom:1; }
+	.clearit { clear:both; height:0; font-size:0; overflow:hidden; }
+	a{ color:#3c3c3c; text-decoration:none; }
+	a:hover{
+		color:#f40!important;
+	}
+	a:focus { color:#ffffff;}
+	.header{
+		width: 100%;
+		height: 640px;
+		background: url(../img/header1.jpg) no-repeat center;
+		border-bottom: #e6cb64 solid 4px;
+	}
+	button{
+		border: none;
+		margin: 0;
+		padding: 0;
+		background: none;
+		position: relative;
+	}
+	.btns{
+		position: absolute;
+		left:50%;
+		margin-left: -298px;
+		margin-top: 384px;
+		width: 596px;
+	}
+	.gs{
+		padding-left: 61px;
+	}
+	.contentwrap{
+		width: 100%;
+		height:1864px ;
+		background: url(../img/bg_repeat.jpg) repeat  center;
+	}
+	.contentwrap .bd1{
+		width: 998px;
+		height:1864px;
+		margin: 0 auto;
+		background-color: black;
+		border-left: #f8f2c0 solid 1px;
+		border-right: #f8f2c0 solid 1px;
+	}
+	.contentwrap .bd2{
+		width: 984px;
+		height:1864px;
+		margin: 0 auto;
+		/* background-color: aqua; */
+		border-left: #c8c8a2 solid 1px;
+		border-right: #c8c8a2 solid 1px;
+	}
+	.contentwrap .bd3{
+		width: 982px;
+		height:1864px;
+		margin: 0 auto;
+		/* background-color: aqua; */
+		border-left: #30291f solid 1px;
+		border-right: #30291f solid 1px;
+		position: relative;
+	}
+	.contentwrap .bd3 .top{
+		display:none;
+		width: 54px;height: 54px;
+		border: 1px solid #FFFFFF;
+		border-radius: 5px;
+		background-color: #838383;
+		text-align: center;
+		font: normal 16px/52px "微软雅黑";
+		color: #FFFFFF;
+		position: absolute;
+		bottom: 44px;
+		right: 50px;
+	}
+	.contentwrap .content{
+		padding-top:16px;
+		width: 740px;
+		height:1864px ;
+		margin: 0 auto;
+	}
+	.contentwrap .contitle p{
+		width: 594px;
+		height:230px;
+		margin: 0 auto;
+		margin-top: 24px;
+		color: #FFFFFF;
+		font:normal 14px/18px "微软雅黑";
+		text-align: center ;
+	}
+	.act .actop{
+		width: 522px;
+		height: 36px;
+		margin: 0 auto;
+		margin-top: 40px;
+		
+		overflow: hidden;
+	}
+	.content .actop li{
+		float: left;
+		width:160px;
+		height:34px;
+		border: #fef8ba solid 1px;
+		border-radius: 5px;
+		text-align: center;
+		font: normal 20px/34px "微软雅黑";
+		background-color: #e15234;
+		margin-left: 17px;
+	}
+	.content .actop .first{
+		margin-left: 0;
+	}
+	.content .actop li a{
+		color: #FFFFFF;
+	}
+	.content .act .act1 h1,.content .act .act2 h1,.content .act .act3 h1{
+		font: solid 20px "微软雅黑";
+		color: #f2f050;
+		text-align: center;
+		margin-top: 20px;
+		
+	}
+	.content .act .act1 p,.content .act .act2 p,.content .act .act3 p{
+		margin-top: 30px;
+		color: #FFFFFF;
+		font:normal 14px/22px "微软雅黑";
+		letter-spacing: -0.1px;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.content .act .act1 table,.content .act .act2 table{
+			width: 422px;
+			height: 384px;
+			margin: 0 auto;
+			margin-top: 10px;
+			border: #69634b solid 2px;
+			font: normal 12px/12px "微软雅黑";	
+		}
+	.content .act .act2 table{
+		width: 316px;
+		height: 178px;
+	}
+	.content .act .act3 table{
+		width: 544px;
+		height: 238px;
+		margin: 0 auto;
+		margin-top: 10px;
+		border: #69634b solid 2px;
+		font: normal 12px/12px "微软雅黑";
+		color: #fff;
+	}
+	.content .act .act1 table tr td,.content .act .act1 table tr th{
+		color:#fff ;
+		border-color: #b3a980;
+		text-align: left;
+	}
+	.content .act .act2 table tr td,.content .act .act2 table tr th{
+		color:#fff ;
+		border-color: #b3a980;
+		text-align: left;
+	}
+	.content .act .act3 table tr td,.content .act .act3 table tr th{
+		text-align: left;
+		color:#fff ;
+		border-color: #b3a980;
+	}
+	.content .act .act3 table tr th{
+		border-right: black solid 0.6px;
+	}
+	.content .act .act3 table tr .l{
+		border-right:#b3a980 solid 1px;
+	}
+	
+	.foot{
+		width: 100%;
+		height: 150px;
+	}
+	.foot img{
+		margin: 45px auto;
+	}
